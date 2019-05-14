@@ -14,7 +14,7 @@ git checkout (nome) -- troca de branch
 git log -- diz todas as modificacoes do branch atual
 git reset --soft , --mixed , --hard  , --soft volta antes de commit --mixed volta antes dos commits sem deixar os arquivos para commitar --hard deleta
 git remote -- verifica a conexao com remoto
-git remote add origin (link) -- linka seu repositorio (ja criado) com o remoto
+git remote add (origin) (link) -- linka seu repositorio (ja criado) com o remoto
 git push -u (destino) (branch) -- enviar arquivos para o remoto
 git revert --no-edit (codigo do commit) -- vari reverte o commit (salvador de sextafeira)
 git push -u (destino) :(branch) -- deleta o branch do remoto
