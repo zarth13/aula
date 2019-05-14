@@ -18,6 +18,6 @@ git remote add origin (link) -- linka seu repositorio (ja criado) com o remoto
 git push -u (destino) (branch) -- enviar arquivos para o remoto
 git revert --no-edit (codigo do commit) -- vari reverte o commit (salvador de sextafeira)
 git push -u (destino) :(branch) -- deleta o branch do remoto
-
+git branch -D (nome) -- deleta um branch local
 
 arquivo .gitignore --- ele impede que arquivos sejem detectados pelo git 
