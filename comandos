@@ -16,3 +16,6 @@ git reset --soft , --mixed , --hard  , --soft volta antes de commit --mixed volt
 git remote -- verifica a conexao com remoto
 git remote add origin (link) -- linka seu repositorio (ja criado) com o remoto
 git push -u (destino) (branch) -- enviar arquivos para o remoto
+
+
+arquivo .gitignore --- ele impede que arquivos sejem detectados pelo git 
