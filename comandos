@@ -1,0 +1,18 @@
+git diff -- mostra modificacoes nos arquivos
+git status -- mostra o que moudou na pasta
+git add (arquivo) -- adiciona arquivo ao monitoramento
+git add -A -- adiciona todos os arquivos ao monitoramento
+git commit -m "texto"-- adiciona commit com texto / -am "texto" -- mescla entre git add e git commit -m
+git brench (nome) -- cria brench
+git diff --name-only -- para saber o nome dos arquivos modificados
+git diff (nome do arquivo) -- o que mudou em arquivo especifico
+git chekout (branch) --soft --hard --para voltar arquivos
+git chekout HEAD --(ARQUIVO) --volta o arquivo especifico , HEAD se revere ao brench atual
+git branch -- lista todos os branchs
+git branch (nome) -- cria um branch novo
+git checkout (nome) -- troca de branch
+git log -- diz todas as modificacoes do branch atual
+git reset --soft , --mixed , --hard  , --soft volta antes de commit --mixed volta antes dos commits sem deixar os arquivos para commitar --hard deleta
+git remote -- verifica a conexao com remoto
+git remote add origin (link) -- linka seu repositorio (ja criado) com o remoto
+git push -u (destino) (branch) -- enviar arquivos para o remoto
