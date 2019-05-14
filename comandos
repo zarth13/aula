@@ -6,8 +6,8 @@ git commit -m "texto"-- adiciona commit com texto / -am "texto" -- mescla entre 
 git brench (nome) -- cria brench
 git diff --name-only -- para saber o nome dos arquivos modificados
 git diff (nome do arquivo) -- o que mudou em arquivo especifico
-git chekout (branch) --soft --hard --para voltar arquivos
-git chekout HEAD --(ARQUIVO) --volta o arquivo especifico , HEAD se revere ao brench atual
+git checkout (branch) --soft --hard --para voltar arquivos
+git checkout HEAD --(ARQUIVO) --volta o arquivo especifico , HEAD se revere ao brench atual
 git branch -- lista todos os branchs
 git branch (nome) -- cria um branch novo
 git checkout (nome) -- troca de branch
@@ -16,6 +16,8 @@ git reset --soft , --mixed , --hard  , --soft volta antes de commit --mixed volt
 git remote -- verifica a conexao com remoto
 git remote add origin (link) -- linka seu repositorio (ja criado) com o remoto
 git push -u (destino) (branch) -- enviar arquivos para o remoto
+git revert --no-edit (codigo do commit) -- vari reverte o commit (salvador de sextafeira)
+git push -u (destino) :(branch) -- deleta o branch do remoto
 
 
 arquivo .gitignore --- ele impede que arquivos sejem detectados pelo git 
